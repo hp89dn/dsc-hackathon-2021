@@ -1,0 +1,23 @@
+.header--wrapper {
+    height: 100vh;
+    background-image: url('../../../../assets/header/bg-header.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+  .header--container {
+    background-color: #ffffff00;
+  }
+  .header__content--wrapper {
+    max-width: 580px;
+  }
+  @media (max-width: 1023.99px) { 
+    .header--wrapper {
+      height: auto;
+    }
+    .header--container {
+      background-color: #ffffffc0;
+    }
+    .header__content--wrapper {
+      margin: auto;
+    }
+  }

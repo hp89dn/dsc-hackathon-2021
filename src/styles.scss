@@ -1,1 +1,51 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 /* You can add global styles to this file, and also import other style files */
+/* This project uses Tailwind CSS */
+/* Install Tailwind CSS via npm or yarn to customize and use treeshake feature */
+
+button {
+  outline: none !important;
+}
+.section--container {
+  width: 1320px;
+  margin: auto;
+}
+/* 540px	720px	960px	1140px	1320px */
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .section--container {
+    width: 1140px;
+  }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .section--container {
+    width: 960px;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .section--container {
+    width: 720px;
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .section--container {
+    width: 540px;
+  }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .section--container {
+    width: 450px;
+  }
+}
+@media (max-width: 449.98px) {
+  .section--container {
+    width: 320px;
+  }
+}
