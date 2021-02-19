@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6534670706403566732" datatype="html">
+        <source> About DSC </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/about-dsc/about-dsc.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+        <note priority="1" from="description"> A header for About DSC</note>
+        <note priority="1" from="meaning">about-dsc </note>
+      </trans-unit>
+      <trans-unit id="5930427058504144837" datatype="html">
+        <source> Help students bridge the gap be tween theory and practice </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/about-dsc/about-dsc.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+        <note priority="1" from="description"> Help students bridge the gap be tween theory and practice</note>
+        <note priority="1" from="meaning">about-dsc </note>
+      </trans-unit>
+      <trans-unit id="2434410790829363551" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Developer Student Clubs (DSC)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt; "/> are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/about-dsc/about-dsc.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+        <note priority="1" from="description"> Developer Student Clubs (DSC) are university based community groups for students
+              interested in Google developer technologies</note>
+        <note priority="1" from="meaning">about-dsc </note>
+      </trans-unit>
+      <trans-unit id="8945218753061988670" datatype="html">
+        <source>See more...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/about-dsc/about-dsc.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description"> See more</note>
+        <note priority="1" from="meaning">about-dsc </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
