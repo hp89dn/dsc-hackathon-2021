@@ -1,0 +1,28 @@
+.footer-section {
+    position: relative;
+    background-color: #132b52;
+    height: 115px;
+    width: 100%;
+  }
+  .footer-container {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    left: 7%;
+  }
+  .footer-logo {
+    height: 18px;
+    padding-right: 7px;
+  }
+  .footer-text {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'Google Sans';
+    color: white;
+    font-size: 16px;
+    line-height: 20.8px;
+    padding-bottom: 2.5px;
+  }
+  .footer-text:not(:last-child){
+    padding-right: 24px;
+  }

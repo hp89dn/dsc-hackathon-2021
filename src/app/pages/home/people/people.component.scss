@@ -1,0 +1,45 @@
+.people__title {
+    background-image: url(../img/timeline/title-underline.svg);
+    background-repeat: no-repeat;
+    background-size: 320px 1rem;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+.people--wrapper {
+    width: 100%;
+}
+.people__card {
+    flex:1
+}
+.people__card--container {
+    position:relative;
+}
+.people-button {
+    position: absolute;
+    top: calc(50% - 2em);
+    cursor: pointer;
+}
+.people__nextButton {
+    left:0;
+}
+.people__prevButton {
+    right:0
+ }
+@media (min-width:768px) and (max-width:991px){
+    .xl-hidden {
+         display:none
+    }
+}
+@media (max-width: 767.98px) {
+    .md-hidden {
+         display:none
+    }
+    .people__card--container{
+         width:100%
+    }
+}
+@media (min-width:360px) and (max-width:575px){
+    .xs-hidden {
+         display:none
+    }
+}

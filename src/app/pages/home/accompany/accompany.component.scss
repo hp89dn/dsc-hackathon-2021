@@ -1,0 +1,20 @@
+.accompanying--wrapper{
+    position: relative;
+    width: 100%;
+}
+.accompanying__title {
+    background-image: url(../img/timeline/title-underline.svg);
+    background-repeat: no-repeat;
+    background-size: 320px 1rem;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+/* .accompanying__gradient__background {
+    position:absolute;
+    z-index: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,221,236,1) 35%, rgba(174,179,217,1) 55%, rgba(219,221,236,1) 74%, rgba(255,255,255,1) 100%);
+} */
+.accompanying__card-row {
+    margin:10px 0
+}
